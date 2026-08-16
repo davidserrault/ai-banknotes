@@ -1,0 +1,15 @@
+interface:
+  display_name: Concevoir un billet fictif
+  short_description: Compose des billets imaginaires par zoning
+  default_prompt: Utilise $concevoir-billet-fictif pour concevoir un billet imaginaire
+    horizontal à partir de mon thème, de ma couleur, de sa valeur et du nom de sa
+    devise.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
